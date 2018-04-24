@@ -1,0 +1,17 @@
+name: Warn
+author: nexus
+main : nexus.Warn
+version: 1.1.0
+api: [1.0.0]
+
+permissions:
+ cmd.warn:
+  description: 경고
+  default: true
+
+commands:
+ warn:
+  usage: /warn
+  permission: cmd.warn
+  description: 경고
+  default: true
